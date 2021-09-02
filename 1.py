@@ -14,7 +14,7 @@ cv.createTrackbar('US', 'Tracking', 255, 255, nothing)
 cv.createTrackbar('UV', 'Tracking', 255, 255, nothing)
 
 while True:
-    frame = cv.imread('smarties2.jpg')
+    frame = cv.imread('download.jpg')
     hsv = cv.cvtColor(frame, cv.COLOR_BGR2HSV)
     
     l_h = cv.getTrackbarPos('LS', 'Tracking')
